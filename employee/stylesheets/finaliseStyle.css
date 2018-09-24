@@ -1,0 +1,17 @@
+html,body{
+    padding:10px;
+    font-family:'Calibri';
+}
+label {
+    width:400px;
+    display:block;
+}
+input {
+    width: 400px;
+}
+input[type=text]{
+    height:40px;
+}
+span{
+    color:red;
+}

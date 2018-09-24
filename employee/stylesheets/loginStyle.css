@@ -1,0 +1,105 @@
+/* Coded by Sushant Adhikari
+*   Student id: 19485485
+ */
+
+html,body{
+    margin:0;
+}
+
+.mainDiv{
+    height:100vh;
+}
+
+.leftDiv{
+    width:50%;
+    float:left;
+    background-image:url('../images/sideimg1.jpg');
+    height:100%;
+}
+
+.rightDiv{
+    float:right;
+    width:50%;
+    height:100%;
+    background-color:#2F4F4F;
+    /* #228B22; */
+}
+
+#rightContainer{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    top:10%;
+    left:20%;
+    background-color:white;
+    box-shadow: 0.5px 1px black;
+}
+
+#inputContainer{
+    position:relative;
+    height:80%;
+    background-color:white;
+    top:15%;
+
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.mainInput::placeholder{
+    opacity:1;
+    color:#A9A9A9;
+}
+
+.mainInput{
+    height:40px;
+    width:300px;
+    background-color:#DCDCDC;
+    color:#696969;
+    border:none;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding-left:15px;
+    -webkit-transition: border 0.1s; /* Safari */
+    transition: border 0.2s;
+}
+
+.mainInput:focus{
+    border-bottom: 3px solid green;
+}
+
+
+.mainSubmit{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+
+    border:none;
+    width:315px;
+    color:white;
+    background-color:green;
+    height:40px;
+}
+
+.mainSubmit:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.errorDisplay{
+    font-family:'Calibri';
+    padding-left:30px;
+    color:red;
+}
+
+#topPara{
+    position: relative;
+    color:white;
+    font-family:'Calibri';
+    width:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    top:20px;
+}
